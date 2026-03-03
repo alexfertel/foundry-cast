@@ -7,12 +7,6 @@ Teach agents what [`cast`](https://www.getfoundry.sh/cast) is and how to use it.
 From this repository:
 
 ```bash
-npx skills add alexfertel/foundry-cast --skill foundry-cast
-```
-
-Or install all skills from the repo:
-
-```bash
 npx skills add alexfertel/foundry-cast
 ```
 

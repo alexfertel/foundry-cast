@@ -1,34 +1,24 @@
 # Foundry Cast Agent Skill
 
-`foundry-cast` is an Agent Skills-compatible skill that helps coding agents use Foundry `cast` safely and effectively for EVM investigation and contract interaction.
+Teach agents what [`cast`](https://www.getfoundry.sh/cast) is and how to use it.
 
 ## Install
 
 From this repository:
 
 ```bash
-npx skills add <owner>/<repo> --skill foundry-cast
+npx skills add alexfertel/foundry-cast --skill foundry-cast
 ```
 
 Or install all skills from the repo:
 
 ```bash
-npx skills add <owner>/<repo>
+npx skills add alexfertel/foundry-cast
 ```
 
 ## Skill Path
 
 - `skills/foundry-cast/SKILL.md`
-
-## Local Validation
-
-```bash
-# List discoverable skills in this repo
-npx skills add . --list
-
-# Install this skill for specific agents
-npx skills add . --skill foundry-cast -a opencode -a codex -y --copy
-```
 
 ## What It Covers
 
